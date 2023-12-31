@@ -6,7 +6,8 @@ using UnityEngine.InputSystem;
 public class Movement : MonoBehaviour
 {
     Input playerControls;
-
+    Public bool sprint;
+	
     [SerializeField]
     private float speed;
 
